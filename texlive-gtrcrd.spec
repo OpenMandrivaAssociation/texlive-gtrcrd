@@ -50,3 +50,11 @@ start of the lyric.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 762634
+- texlive-gtrcrd
+- texlive-gtrcrd
+
