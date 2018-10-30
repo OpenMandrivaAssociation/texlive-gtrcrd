@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-gtrcrd
 Version:	1.1
-Release:	6
+Release:	7
 Summary:	Add chords to lyrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gtrcrd
