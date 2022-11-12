@@ -1,18 +1,12 @@
-# revision 32484
-# category Package
-# catalog-ctan /macros/latex/contrib/gtrcrd
-# catalog-date 2013-12-25 08:30:41 +0100
-# catalog-license lppl1.3
-# catalog-version 1.1
 Name:		texlive-gtrcrd
-Version:	1.1
-Release:	7
+Version:	32484
+Release:	1
 Summary:	Add chords to lyrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gtrcrd
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gtrcrd.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gtrcrd.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gtrcrd.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gtrcrd.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -27,12 +21,12 @@ that the chord specification appears immediately above the
 start of the lyric.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -43,7 +37,7 @@ start of the lyric.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
