@@ -1,6 +1,6 @@
 Name:		texlive-gtrcrd
 Version:	32484
-Release:	1
+Release:	2
 Summary:	Add chords to lyrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gtrcrd
