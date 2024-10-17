@@ -3,7 +3,7 @@ Version:	32484
 Release:	2
 Summary:	Add chords to lyrics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gtrcrd
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gtrcrd
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gtrcrd.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gtrcrd.doc.r%{version}.tar.xz
